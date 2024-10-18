@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   
   body {
@@ -52,5 +53,18 @@
   
   #tips {
     max-width: 300px;
-    margin-top: 20px; /* Отступ для блока с подсказками */
+    margin-top: 20px;
+  }
+
+  #check-btn {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #a9fff969;
+    padding: 10px;
+    color: #937373
+  }
+
+  #check-btn:hover{
+    cursor: pointer;
+    background-color: #48addf75;
   }
